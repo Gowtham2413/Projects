@@ -1,0 +1,214 @@
+body{
+    font-family: "PT Sans", sans-serif;
+    margin: 0%;
+    padding: 0%;
+}#nav{
+    display: flex;
+    border: 1px solid black;
+    height: 40px;
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+}
+.navs{
+    height: 45px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+.navs:hover{
+    background-color: #444444;
+}
+#div1{
+    height: 100vh;
+    background-image: url(../images/theme_novo_musician.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#div1-head1{
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 180px;
+}
+#div1-head2{
+    font-weight: bold;
+    font-size: xx-large;
+}
+#div1-head3{
+    font-size: larger;
+    text-align: center;
+    width: 1150px;
+    line-height: 35px;
+}
+#div2{
+    height: 170vh;
+    background-color: #252529;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#div2-head1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 180px;
+    margin-top: 40px;
+}
+#div2-head2{
+    font-weight: bold;
+    font-size: xx-large;
+}
+#div2-head3{
+    font-size: larger;
+    text-align: center;
+    width: 1150px;
+    line-height: 35px;
+}
+#div2-head4{
+    background-color: #D3071B;
+    color: white;
+    padding: 20px 15px;
+    font-size: 15px;
+    border-style: none;
+}
+#div2-head4:hover{
+    background-color:hsl(0, 70%, 50%);
+    color: white;
+}
+#div2-head5{
+    font-size: 16px;
+}
+#div3{
+    height: 180vh;
+    color: #252529;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#div3-head1{
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+#div3-head2{
+    font-size: larger;
+    text-align: center;
+    width: 1150px;
+    line-height: 35px;
+}
+#div3-head3{
+    background-color:#103063;
+    color: white;
+    padding: 20px 10px;
+    width: 120px;
+    font-size: 15px;
+    border-style: none;
+}
+#div3-head3:hover{
+    background-color:#143F85;
+    color: white;
+}
+#div4{
+    height: 73vh;
+    background-color: #D3071B;
+    background-image: url(../images/Creating-New-Order-Out-of-Chaos\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#div4-head1{
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+}
+#div4-head2{
+    font-size: larger;
+    text-align: center;
+    width: 1150px;
+    line-height: 35px;
+    color: white;
+}
+#div5{
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.sub-divs{
+    height: 60vh;
+    width: 40%;
+}
+#sub-div1{
+    background-image:url(../images/cards.png) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#div5-head1{
+    color: #333333;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 60px;
+}
+#div5-head2{
+    color: #333333;
+    line-height: 25px;
+}
+#div5-head3{
+    color: #333333;
+}
+#div5-head4{
+    border: 1px solid #9A9A9A;
+    border-top-style: none;
+}
+#div5-head5{
+    text-decoration: none;
+    color: #103063;
+}
+#div6{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    align-items: center;
+    gap: 70px;
+    background-color: #252529;
+}
+.subs{
+    width: 220px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color:#FFFFFF;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: #C1CCCC;
+    font-size: 14px;
+}
+article{
+    border: 1px solid #444444;
+    border-top-style: none;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+footer{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: white;
+}
